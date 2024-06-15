@@ -1,0 +1,39 @@
+ID,s4CustomerId,s4CustomerName,nwCustomerId,nwCustomerName
+60ad69a7-1e52-45cc-a3e6-d334d15ce33a,0100000000,SAP,ALFKI,Alfreds Futterkiste
+6582b6f0-ccc0-4b6a-aaf0-eedebbd2264d,0100000002,DelBont Industries,ANATR,Ana Trujillo Emparedados y helados
+90dde272-5ff6-45b8-9bd7-aec7580b3d2b,0100000005,TECUM,ANTON,Antonio Moreno Taquería
+db14c793-2c87-4ee1-9116-3ae3a1d6a88b,0100000006,Asia High tech,AROUT,Around the Horn
+b737d964-6c22-4850-a095-78930bd0c34e,0100000008,AVANTEL,BERGS,Berglunds snabbköp
+02c89bc6-352b-4fef-91c0-3a8aa30a2463,0100000003,Talpa,BLAUS,Blauer See Delikatessen
+08062c82-9000-49f3-8d16-a71e09bf8dca,0100000004,Panorama Studios,BLONP,Blondesddsl père et fils
+d3af5169-2534-4de0-9615-2396fea0ea4d,0100000009,Telecomunicaciones Star,BOLID,Bólido Comidas preparadas
+d878ac7e-4617-4398-b7f5-cc0ed1154c9f,0100000026,Vente Et Réparation de Ordinateur,BONAP,Bon app'
+21fe8102-c82e-49d8-bcc9-135e079ecf9c,0100000025,Tessile Casa Di Roma,BOTTM,Bottom-Dollar Markets
+53c196ec-b457-45e0-bf63-6f7f1500bfb7,0100000022,Quimica Madrilenos,BSBEV,B's Beverages
+cc550214-4969-48e6-a19e-daefe5dbd1e8,0100000024,JaTeCo,CACTU,Cactus Comidas para llevar
+312e849d-7a34-45f2-b647-975fd5f205b3,0100000021,Florida Holiday Company,CENTC,Centro comercial Moctezuma
+0a8ba18e-ffe2-46c1-9a7a-9c3d916c4f9f,0100000023,Getränkegroßhandel Janssen,CHOPS,Chop-suey Chinese
+3f460ed0-9b8c-460a-a6f7-4474e8d2b3c3,0100000019,Pateu,COMMI,Comércio Mineiro
+0f691b9b-55cc-4758-8418-22a09ad4d708,0100000012,New Line Design,CONSH,Consolidated Holdings
+68cdfeae-fe67-4a97-a755-9cf45bc31f5c,0100000011,Alpine Systems,DRACD,Drachenblut Delikatessen
+c99c2530-bc6f-4c72-ab3e-9684551e29a8,0100000015,Robert Brown Entertainment,DUMON,Du monde entier
+e07a494c-ae6e-4805-9535-6445cd5999ad,0100000013,HEPA Tec,EASTC,Eastern Connection
+9a01ad45-54bf-41dc-9293-d1e1091d22bd,0100000014,Anav Ideon,ERNSH,Ernst Handel
+bd10b8ca-f149-4507-9e06-9b2fd2603190,0100000016,Mexican Oil Trading Company,FAMIA,Familia Arquibaldo
+b3f08d95-7254-4c87-8a53-a3f8eb321fa8,0100000017,Meliva,FISSA,FISSA Fabrica Inter. Salchichas S.A.
+635a936f-f6c6-48e2-8c7c-22ec6cc242a5,0100000018,Compostela,FOLIG,Folies gourmandes
+640d2a90-7b0f-4bcc-97eb-3806f05e9f4f,0100000028,Brazil Technologies,FOLKO,Folk och fä HB
+8f67fd38-3d9a-496f-9f77-2bcf45b2dcdf,0100000030,Jologa,FRANK,Frankenversand
+b85b2519-0d2a-4b42-93ec-ff540d3a1720,0100000031,Baleda,FRANR,France restauration
+1aafb8a6-c7e4-493d-915a-f497c6d4dbbc,0100000032,Angeré,FRANS,Franchi S.p.A.
+61c1609b-060d-4a9d-bdd2-02e13cd01ed3,0100000033,PC Gym Tec,FURIB,Furia Bacalhau e Frutos do Mar
+e108a930-9273-4b8b-8f07-cc2f90ece8dd,0100000034,Japan Insurance Partner,GALED,Galería del gastrónomo
+ad52c157-7c65-426c-b842-b69baf46ff23,0100000035,Entertainment Argentinia,GODOS,Godos Cocina Típica
+b2416394-9fc6-4365-9628-c70e94b9078d,0100000027,Developement Para O Governo,GOURL,Gourmet Lanchonetes
+d83e394b-6370-46aa-a518-e09583dd9015,0100000044,Sorali,GREAL,Great Lakes Food Market
+b3962a9e-4415-4c55-8c6b-099b04a08c03,0100000036,African Gold And Diamond Corporation,GROSR,GROSELLA-Restaurante
+898f02fb-aa98-46a1-bef7-3651808a1d6c,0100000038,Bionic Research Lab,HANAR,Hanari Carnes
+bdd6d0d3-369e-4dec-b238-fdb96c12cf6c,0100000037,PicoBit,HILAA,HILARION-Abastos
+6baf2ca0-1900-4a4d-aee4-57d295a0511a,0100000042,Siwusha,HUNGC,Hungry Coyote Import Store
+df8e1ce4-3189-481d-9576-d31e107d034c,0100000041,South American IT Company,HUNGO,Hungry Owl All-Night Grocers
+889ff15a-8c80-4d3e-95d1-eb7130d0e73b,0100000043,Danish Fish Trading Company,ISLAT,Island Trading
