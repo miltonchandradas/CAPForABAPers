@@ -11,7 +11,7 @@ service SalesService
     entity MappingCustomers as
         projection on my.MappingCustomers;
 
-    entity SalesOrders as projection on SalesOrderA2X.A_SalesOrder
+    entity S4SalesOrders as projection on SalesOrderA2X.A_SalesOrder
     {
         SalesOrder as salesOrder,
         SoldToParty as customer,
