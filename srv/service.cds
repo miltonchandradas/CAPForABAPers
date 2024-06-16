@@ -11,13 +11,15 @@ service SalesService
     entity MappingCustomers as
         projection on my.MappingCustomers;
 
-    entity SalesOrders as projection on SalesOrderA2X.A_SalesOrder
+    entity S4SalesOrders as projection on SalesOrderA2X.A_SalesOrder
     {
         SalesOrder as salesOrder,
         SoldToParty as customer,
         SalesOrderDate as salesOrderDate,
         TotalNetAmount as totalAmount,
-        OverallDeliveryStatus as status
+        OverallDeliveryStatus as status,
+        IncotermsTransferLocation as customerId,
+        IncotermsLocation1 as CompanyName
     };
 
     entity Customers as projection on northwind.Customers
