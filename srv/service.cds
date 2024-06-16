@@ -19,7 +19,7 @@ service SalesService
         TotalNetAmount as totalAmount,
         OverallDeliveryStatus as status,
         IncotermsTransferLocation as customerId,
-        IncotermsLocation1 as CompanyName
+        IncotermsLocation1 as customerName
     };
 
     entity Customers as projection on northwind.Customers
