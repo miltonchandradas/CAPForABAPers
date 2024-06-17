@@ -4,6 +4,12 @@ using {com.sap as my} from '../db/schema';
 @path: '/service/CAPForABAPersSvcs'
 service SalesService {
 
+    annotate Customers with @restrict :
+    [
+        { grant : [ '*' ], to : [ 'Manager' ] },
+        { grant : [ 'READ' ], to : [ 'Support' ] }
+    ];
+
     @readonly
     entity MappingCustomers   as projection on my.MappingCustomers;
 
@@ -17,4 +23,9 @@ service SalesService {
     entity NorthwindCustomers as projection on my.NorthwindCustomers;
 }
 
-annotate SalesService with @requires: ['authenticated-user'];
+annotate SalesService with @requires :
+[
+    'authenticated-user',
+    'Manager',
+    'Support'
+];
