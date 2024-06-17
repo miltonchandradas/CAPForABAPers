@@ -148,6 +148,11 @@
                 "orders/@com.sap.vocabularies.UI.v1.LineItem#SalesOrders": {
                   "tableSettings": {
                     "showRowCount": true
+                  },
+                  "columns": {
+                    "DataField::status": {
+                      "width": "10%"
+                    }
                   }
                 }
               }

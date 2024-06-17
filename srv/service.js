@@ -96,9 +96,20 @@ module.exports = async (srv) => {
     })
 
     srv.on("READ", S4SalesOrders, async (req) => {
+
+        const getS4CustomerId = async (customerId) => {
+            let mapping = await SELECT.one.from(MappingCustomers).where({
+                nwCustomerId: customerId
+            })
+
+            return mapping.s4CustomerId;
+        }
+
+
         let orders = await S4_Service.send({
             // query: req.query,
             query: SELECT.from(S4SalesOrders)
+                .where({ customerId: await getS4CustomerId(req._params[0]?.customerId) })
                 .columns("salesOrder", "customerId", "salesOrderDate", "totalAmount", "status")
                 .limit(10),
             headers: {
@@ -109,5 +120,20 @@ module.exports = async (srv) => {
 
         orders.$count = orders.length
         return orders
+    })
+
+
+    srv.after("READ", S4SalesOrders, (data) => {
+        const orders = Array.isArray(data) ? data : [data];
+
+        orders.forEach(order => {
+            if (order.status === 'C') {
+                order.status = "Completed"
+                order.criticality = 3
+            } else {
+                order.status = "Over Due"
+                order.criticality = 1
+            }
+        })
     })
 }
