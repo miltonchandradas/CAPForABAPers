@@ -52,7 +52,7 @@
         "model": "srv/external/SalesOrderA2X",
         "[development]": {
           "credentials": {
-            "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/"
+            "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV"
           }
         },
         "[production]": {

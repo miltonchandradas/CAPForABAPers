@@ -1,0 +1,2 @@
+### GET Customers
+GET http://localhost:4004/service/CAPForABAPersSvcs/Customers?$select=customerId,customerName,contactName,address,city,zipcode,country,phone&$expand=orders
