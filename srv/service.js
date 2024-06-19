@@ -1,4 +1,5 @@
 const cds = require("@sap/cds");
+const LOG = cds.log();
 
 module.exports = async (srv) => {
     const { MappingCustomers, Customers, S4SalesOrders, NorthwindCustomers } = srv.entities;
